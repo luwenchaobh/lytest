@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 var autoIncrement = require('mongoose-auto-increment');
-var connection = mongoose.connect("mongodb://luwenchaobh:Toledo19860711!@ds013162.mlab.com:13162/luwenchaobh");
+var connection = mongoose.connect("mongodb://************************@ds013162.mlab.com:13162/luwenchaobh");
 autoIncrement.initialize(connection);
 
 //longToShortURLSchema 用于存放一组长短地址
